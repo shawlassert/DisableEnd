@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "disable_end",
+	"version": "26.3",
+	"name": "Disable End",
+	"description": "This mod adds a gamerule that disables the end",
+	"authors": [
+		"Me!"
+	],
+	"license": "CC0-1.0",
+	"icon": "",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.disableend.DisableEnd"
+		]
+	},
+	"mixins": [
+		"disableend.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.0",
+		"minecraft": "26.3",
+		"java": "25",
+		"fabric-api": "*"
+	}
+}
