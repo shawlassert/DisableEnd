@@ -1,9 +1,11 @@
-# teamer
+<a href="https://modrinth.com/mod/fabric-api"><img src="https://i.imgur.com/Ol1Tcf8.png" alt="Requires Fabric API" width="200"></a>
 
-## Setup
+# Disable End
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+This mod uses the `disable_end` gamerule to disable access to the End in multiple ways:
 
-## License
+- Prevents players from entering the End.
+- Prevents End portals from activating.
+- Prevents players from placing Eyes of Ender into End Portal Frames.
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Toggle the gamerule to control access to the End.
